@@ -1,0 +1,17 @@
+body {
+    font-family: Roboto, sans-serif, Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-third {
+    background-color: #1f2937;
+}
+
+.upper-section {
+
+}
+
+.lower-section {
+    background-color: lightgray;
+}
