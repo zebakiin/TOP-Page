@@ -17,6 +17,17 @@ body {
     display: flex;
 }
 
+    .left-header{
+        /* I dont think you have to add anything here */
+    }
+
+        .header-title {
+            /* what TOP calls "Hero Text" -> for font and etc */
+        }
+
+        .header-subtext {
+            
+        }
 .upper-section {
     display: flex;
 
@@ -53,5 +64,5 @@ body {
     }
 
     .lower-footer {
-        
+
     }
