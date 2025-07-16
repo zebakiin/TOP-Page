@@ -1,20 +1,27 @@
 body {
     font-family: Roboto, sans-serif, Arial, Helvetica, sans-serif;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
 }
 
 .top-third {
     background-color: #1f2937;
-    flex: 1 1 auto;
     display: flex;
+    flex-wrap: wrap;
 }
 .title {
     display: flex;
+    flex: 0 0 100%;
+    justify-content: space-between;
 }
 
 .header-section {
     display: flex;
+    flex: 1;
+    justify-content: center;
 }
 
     .left-header{
@@ -26,10 +33,11 @@ body {
         }
 
         .header-subtext {
-            
+
         }
 .upper-section {
     display: flex;
+
 
 }
 .boxes {
@@ -37,7 +45,9 @@ body {
 }
 
 .lower-section {
+    display: flex;
     background-color: lightgray;
+    
 }
     .quote {
         
@@ -48,10 +58,13 @@ body {
     }
 
     .upper-footer {
+        display: flex;
+        flex-basis: 100%;
 
     }
 
     .footer-box {
+        display: flex;
 
     }
 
@@ -64,5 +77,7 @@ body {
     }
 
     .lower-footer {
-
+display: flex;
+justify-content: center;
+flex: 0 0 auto;
     }
