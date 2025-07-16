@@ -6,12 +6,52 @@ body {
 
 .top-third {
     background-color: #1f2937;
+    flex: 1 1 auto;
+    display: flex;
+}
+.title {
+    display: flex;
+}
+
+.header-section {
+    display: flex;
 }
 
 .upper-section {
+    display: flex;
 
+}
+.boxes {
+    display: flex;
 }
 
 .lower-section {
     background-color: lightgray;
 }
+    .quote {
+        
+    }
+
+    .credit {
+
+    }
+
+    .upper-footer {
+
+    }
+
+    .footer-box {
+
+    }
+
+    .left-footer {
+
+    }
+
+    .button {
+
+    }
+
+    .lower-footer {
+        
+    }
