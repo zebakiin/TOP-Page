@@ -40,11 +40,21 @@ body {
     display: flex;
     flex: 1;
     padding: 30px;
-
+    justify-content: center;
+    flex-wrap: wrap;
 
 }
+
+#rndinfo {
+    flex: 0 0 100%;
+}
+
 .boxes {
     display: flex;
+}
+
+figcaption {
+
 }
 
 .lower-section {
