@@ -46,14 +46,19 @@ body {
 }
 
 #rndinfo {
+    display: flex;
     flex: 0 0 100%;
+    justify-content: center;
 }
 
 .boxes {
     display: flex;
 }
 
-figcaption {
+figure {
+    border-color: #3882f6;
+    border: 3px;
+    flex: 0 0 auto;
 
 }
 
