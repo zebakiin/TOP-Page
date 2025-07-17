@@ -92,7 +92,10 @@ img{
 
     .footer-box {
         display: flex;
-
+        background-color: #3882f6;
+        padding: 30px 80px;
+        justify-content: space-between;
+        border-radius: 10px;
     }
 
     .left-footer {
